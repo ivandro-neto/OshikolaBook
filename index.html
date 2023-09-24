@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OshikolaBook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="defaulting()">
+    <main class="container">
+        <div class="forms-container">
+            <div class="border-container glassy">
+                <div class="welcome">
+                    <img src="images/logo/logo.png" alt="OshikolaBook Logo">
+                    <h3>Kiambote!</h3>
+                </div>
+
+                <a href="#" class="link" id="page">Tela de login</a>
+            </div>
+            <section  class="glassy" id="login" >
+                <h1 class="title">Faça o login</h1>
+                <form action="" method="post">
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/file.png" alt="Icon"></div>
+                        <input type="text" placeholder="nº de processo">
+                    </div>
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/locker.png" alt="Icon"></div>
+                        <input type="password" placeholder="Palavra chave">
+                    </div>
+                    <div class="links">
+                       <div class="checkbox-container">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember"> Lembrar de mim</label>
+                       </div>
+                       <a href="#"> Esqueceu a senha?</a>
+                    </div>
+
+                    <button type="submit" class="glassy btn">Entrar</button>
+                </form>
+            </section>
+            <section  class="glassy" id="validation">
+                <h1 class="title">ACTIVACÃO DE CONTA</h1>
+                <form action="" method="post">
+
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/file.png" alt="Icon"></div>
+                        <input type="text" placeholder="nome completo">
+                    </div>
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/file.png" alt="Icon"></div>
+                        <input type="text" placeholder="nº de processo">
+                    </div>
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/locker.png" alt="Icon"></div>
+                        <input type="password" placeholder="Palavra chave">
+                    </div>
+                    <button type="submit" class="glassy btn">Ativar</button>
+                    
+                </form>
+            </section>
+            <section  class="glassy" id="newpass">
+                <h1 class="title">DIGITE A SUA NOVA SENHA</h1>
+
+                <form action="" method="post">
+                    
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/locker.png" alt="Icon"></div>
+                        <input type="text" placeholder="nova senha">
+                    </div>
+                    <div class="inputs glassy">
+                        <div class="icons"><img src="images/icons/locker.png" alt="Icon"></div>
+                        <input type="password" placeholder="Confirma nova senha">
+                    </div>
+                    <button type="submit" class="glassy btn">confirmar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <script src="js/change-form.js"></script>
+</body>
+</html>
